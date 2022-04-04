@@ -5,29 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="Estilos.css">
 </head>
 <body>
+<div id="cuadro">
     <h1>Formulario de registro</h1>
 
     <div id="cuadroNom">
-        <h3>Nombre:</h3>
-       <label for="Nombre">
-        <input placeholder="ingrese su Nombre" type="text">
+       <label for="Nombre"> Nombre: 
+        <input placeholder="Ingrese su Nombre" type="text">
        </label>
     </div>
 
     <div id="cuadroApe">
-        <h3>Apellido:</h3>
-       <label for="apellido">
-        <input placeholder="ingrese su apellido" type="text">
+       <label for="Apellido"> Apellido: 
+        <input placeholder="Ingrese su Apellido" type="text">
        </label>
     </div>
 
-    <div id="cuadroSex">
-        <h3>Sexo:</h3>
-       <label for="Sexo">
-         <input type="radio">
-       </label>
+    <div id="cuadrosex">
+        <label>Sexo</label>
+         <input type="radio" name="S">
+         <label>Hombre</label>
+         <input type="radio" name="S">
+         <label>Mujer</label>
     </div>
+
+    <div id="cuadroCorreo">
+    <label>Correo</label>
+    <input placeholder="email">
+    </div>
+
+    <div id="cuadroNOV">
+        <input type="checkbox">
+        <label>Deseo recibir info sobre novedades y ofertas</label>
+    </div>
+
+    <div id="cuadroterms">
+        <input type="checkbox">
+        <label>Declaro haber leido y aceptar las condiciones generales del programa y la normativa de proteccion de datos</label>
+
+    </div>
+
+    <button>Enviar</button>
+</div>
 </body>
 </html>

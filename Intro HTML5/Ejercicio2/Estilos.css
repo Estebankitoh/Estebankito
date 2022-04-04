@@ -1,0 +1,43 @@
+h1{
+    margin-left: 5px;
+}
+
+#cuadro{
+    border: solid #000000;
+    width: 100%;
+    height: 410px;
+}
+
+#cuadroNom{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#cuadroApe{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#cuadrosex{
+margin-bottom: 20px;
+margin-left: 5px;
+}
+
+#cuadroCorreo{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#cuadroNOV{
+margin-bottom: 20px;
+margin-left: 5px;
+}
+
+#cuadroterms{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+button{
+    margin-left: 5px;
+}
