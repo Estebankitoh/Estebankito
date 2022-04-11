@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#center{
+border: solid #000000;
+margin-left: 400px;
+margin-top: 50px;
+height: 550px;
+width: 500px;
+}
+
+#cuadroNom{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cuadmail{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#url{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#date{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tiempo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#datatime{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mes{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#semana{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#numero{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#telefono{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#busqueda{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#colorfav{
+    margin-top: 20px;
+    text-align: center;
+}
+
+button{
+    margin-left: 235px ;
+    margin-top: 30px;
+}
