@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ley OHM</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<div class="mt-5">
+    <div class="card text-center">
+      <div class="card-header">
+        Ley OHM
+      </div>
+        <div class="card-body">
+          <h5 class="card-title">Calcular</h5>
+            <select onchange="setearLabel()" id="slt_oper">
+              <option selected disabled value="-1">Seleccione una Opcion</option>
+              <option value="0">Corriente</option>
+              <option value="1">Tension</option>
+              <option value="2">Resistencia</option>
+            </select> 
+
+      <label id="lbl_dato1"></label>
+      <input type="number" id="inp_dato1">
+
+
+     <label id="lbl_dato2"></label>
+     <input type="number" name="" id="inp_dato2">
+
+      <h2 id="h_resultado"></h2>
+
+      <button class="btn btn-primary" onclick="calcular()">Calcular</button>
+  </div>
+  <div class="card-footer text-muted">
+    <h5 id="h_resultadofooter"></h5>
+</div>
+</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
