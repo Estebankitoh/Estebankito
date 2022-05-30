@@ -1,0 +1,36 @@
+.contenedor{
+    background: rgba(0,0,0,.40);
+    width: 1250px;
+    height: 510px;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 20px 30px;  
+    border: 1px solid black;
+}
+
+body{
+    background: url(img/wallpaperbetter.com_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+.carrusel{
+
+    width: 550px;
+    height: 410px;
+    margin-left: 8%;
+    border-radius: 1%;
+    
+}
+
+#divinp1{
+    margin-left: 50px;
+}
